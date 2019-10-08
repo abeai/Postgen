@@ -12,7 +12,9 @@ var parentName = ''
 
 
 var jsFile = `
-const fasq = require('fasquest');
+'use strict';
+
+const fasq = require('@abeai/node-utils');
 var hostUrl = '';
 `
 
